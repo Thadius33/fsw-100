@@ -1,0 +1,29 @@
+h1 {
+    color: darkgreen;
+}
+
+.Headers {
+    font-family: Georgia;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+#link {
+    text-decoration: none;
+}
+
+#linkTitle {
+    text-transform: uppercase;
+}
+
+#link:hover{
+    text-decoration: underline;
+}
+
+div > img {
+    float: left;
+    margin: 20px;
+}
