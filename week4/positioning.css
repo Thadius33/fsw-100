@@ -1,0 +1,96 @@
+body{
+    background-color: rgba(120,120,120,.3);
+}
+#navbar{
+    background-color: rgba(255, 255, 0, 0.5);
+    position: fixed;
+    top: auto;
+    width: 100%;
+}
+
+#home{
+    color:blue;
+}
+
+#contact{
+    position: relative;
+    left: 1180px;
+}
+
+#help{
+    position: relative;
+    left: 2400px;
+}
+
+img{
+    position: relative;
+    left: 41%;
+    top: 290px;
+    width: 215px;
+    height: 160px;
+}
+
+p{
+    position: relative;
+    left: 50%;
+    top: 50px;
+}
+
+#post1{
+    position: relative;
+    top: 50px;
+}
+
+h4{
+    position: relative;
+    left: 50%;
+    top: 100px;
+    font-size: 20px;
+   
+}
+
+#post2{
+    position: relative;
+    top: -130px;
+}
+
+
+#post3{
+    position: relative;
+    top: -300px;
+}
+
+strong{
+    position: relative;
+    left: 1100px;
+    top: 300px;
+    font-size: 40px;
+}
+
+#box{
+    position: relative;
+    bottom: 905px;
+    left: 40%;
+    border: 2px solid black;
+    height: 175px;
+    width: 900px;
+}
+
+#box2{
+    position: relative;
+    bottom: 856px;
+    left: 40%;
+    border: 2px solid black;
+    height: 175px;
+    width: 900px;
+}
+
+
+#box3{
+    position: relative;
+    bottom: 795px;
+    left: 40%;
+    border: 2px solid black;
+    height: 175px;
+    width: 900px;
+}
