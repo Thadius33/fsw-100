@@ -1,0 +1,134 @@
+body{
+    font-size: 30px;
+    font-family: sans-serif;
+
+    
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 766px ){
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5,20%);
+    gap: 15px;
+    margin: 10px;
+}
+
+#item1{
+    background-color: red;
+    height: 200px;
+    grid-column: 1/ span 5;
+}
+
+#item2{
+    background-color: blue;
+    grid-column: 1/ span 5;
+    height: 200px;
+}
+
+#item3{
+    background-color: green;
+    grid-column: 1/ span 5;
+    height: 200px;
+}
+
+#item4{
+    background-color: purple;
+    grid-column: 1/ span 5;
+    height: 200px;
+}
+
+#item5{
+    grid-column: 1/ span 5;
+    background-color: yellow;
+    height: 20px;
+    height: 200px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1365px ){
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(5,auto);
+        gap: 15px;
+    }
+
+    #item1{
+        background-color: red;
+        height: 100px;
+        grid-column: 1/ span 5;
+    }
+    
+    #item2{
+        background-color: blue;
+        grid-column: 1;
+        height: 200px;
+        grid-row: 2/4;
+    }
+    
+    #item3{
+        background-color: green;
+        grid-column: 2 / span 5;
+        height: 200px;
+    }
+    
+    #item4{
+        background-color: purple;
+        grid-column: 1/ span 5;
+        height: 100px;
+    }
+    
+    #item5{
+        grid-column: 1/ span 5;
+        background-color: yellow;
+        height: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 1366px){
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(4 ,auto);
+        gap: 15px;
+    }
+
+    #item1{
+        background-color: red;
+        height: 100px;
+        grid-column: 1/ span 5;
+    }
+    
+    #item2{
+        background-color: blue;
+        grid-column: 1;
+        height: 200px;
+        grid-row: 2/3;
+    }
+    
+    #item3{
+        background-color: green;
+        grid-column: 2 / 4;
+        height: 200px;
+    }
+    
+    #item4{
+        background-color: purple;
+        grid-column: 4/5;
+        height: 200px;
+    }
+    
+    #item5{
+        grid-column: 1/ span 5;
+        background-color: yellow;
+        height: 100px;
+    }
+    
+ 
+}
