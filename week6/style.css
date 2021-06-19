@@ -1,0 +1,88 @@
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    transition: all 2s ease;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    transition: height 2s ease-in 2s;
+}
+
+#box5{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    transition: margin 1s ease-in-out 1s;
+}
+
+#box6{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    transition: opacity 4s step-start 1s;
+}
+
+#box1:hover{
+    background-color: yellow;
+    border: black solid 10px;
+}
+
+#box2:hover{
+    background-color: yellow;
+    padding: 20px;
+    color: black;
+}
+
+#box3:hover{
+    background-color: yellow;
+    width: 400px;
+}
+
+#box4:hover{
+    background-color: yellow;
+    height: 300px;
+}
+
+#box5:hover{
+    background-color: yellow;
+    margin: 50px;
+}
+
+#box6:hover{
+    background-color: yellow;
+    opacity: .2;
+}
